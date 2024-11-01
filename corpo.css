@@ -1,0 +1,176 @@
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #4cae4c;
+}
+    
+    main {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts {
+    margin-bottom: 40px;
+}
+
+.posts h2 {
+    margin-bottom: 20px;
+}
+
+.post {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.post:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #5cb85c;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #4cae4c;
+}
+
+#novo-post {
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#novo-post h2 {
+    margin: 0 0 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #4cae4c;
+}
+   
+     footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li {
+    margin: 0 15px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+    color: #5cb85c;
+}
